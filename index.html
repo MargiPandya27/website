@@ -2,85 +2,88 @@
 <html lang="en" class="no-js">
 
 <head>
-    <!-- Meta tags for character set and viewport -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- SEO-related meta tags -->
     <title>Margi Pandya</title>
-    <!-- Open Graph meta tags for social media -->
-    <!-- JSON-LD structured data for Person -->
-    <!-- Link to Atom feed -->
-    <!-- Stylesheet link -->
-    <!-- ClearType meta tag for IE -->
-    <!-- Google Analytics script -->
+    <link rel="stylesheet" href="styles.css"> <!-- Add your stylesheet link here -->
 
-    <!-- Custom head snippets -->
-    <!-- Apple touch icons -->
-    <!-- Favicon and manifest links -->
-    <!-- Theme color meta tag -->
-    <!-- MathJax configuration -->
-    <!-- MathJax script -->
-    <!-- End custom head snippets -->
+    <!-- Add your custom head snippets, icons, and other meta tags as needed -->
 
 </head>
 
 <body>
-    <!-- Browser compatibility notice for old IE versions -->
-    
-    <!-- Masthead section -->
+
     <div class="masthead">
         <div class="masthead__inner-wrap">
-            <!-- Masthead menu with navigation links -->
+            <!-- Navigation links can be added here -->
+            <nav id="site-nav" class="greedy-nav">
+                <button><div class="navicon"></div></button>
+                <ul class="visible-links">
+                    <li class="masthead__menu-item masthead__menu-item--lg"><a href="#">Home</a></li>
+                    <li class="masthead__menu-item"><a href="#">About</a></li>
+                    <li class="masthead__menu-item"><a href="#">Portfolio</a></li>
+                    <li class="masthead__menu-item"><a href="#">Contact</a></li>
+                </ul>
+                <ul class="hidden-links hidden"></ul>
+            </nav>
         </div>
     </div>
 
-    <!-- Main content section -->
     <div id="main" role="main">
-        <!-- Sidebar section -->
         <div class="sidebar sticky">
-            <!-- Author information -->
-            <!-- Author avatar, name, bio, and social links -->
+            <!-- Your author information goes here -->
+            <div itemscope itemtype="http://schema.org/Person">
+                <div class="author__avatar">
+                    <img src="path/to/your/avatar.jpg" alt="Your Name">
+                </div>
+                <div class="author__content">
+                    <h3 class="author__name">Your Name</h3>
+                    <p class="author__bio">Your bio or description.</p>
+                </div>
+                <div class="author__urls-wrapper">
+                    <!-- Add your social links or other URLs here -->
+                    <button class="btn btn--inverse">Follow</button>
+                    <ul class="author__urls social-icons">
+                        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Your Location</li>
+                        <li><a href="pandyamk27@email.com"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+                        <li><a href="https://github.com/yourgithub"><i class="fa fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
-        <!-- Article section -->
         <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-            <!-- Metadata for the article -->
             <div class="page__inner-wrap">
-                <!-- Article header with title -->
                 <header>
-                    <h1 class="page__title" itemprop="headline">Bowen Cheng 程博文</h1>
+                    <!-- Your page title goes here -->
+                    <h1 class="page__title" itemprop="headline">Welcome to My Website</h1>
                 </header>
 
-                <!-- Article content -->
                 <section class="page__content" itemprop="text">
-                    <!-- Paragraphs and sections of the article -->
-                    <!-- Includes information about Bowen Cheng, his Ph.D., research interests, news, and projects -->
+                    <!-- Your page content goes here -->
+                    <p>This is a sample content for your homepage. You can add paragraphs, images, and other elements here to showcase your information.</p>
+                    <p>Feel free to customize this template according to your needs.</p>
                 </section>
 
-                <!-- Article footer -->
-                <footer class="page__meta"></footer>
+                <footer class="page__meta">
+                    <!-- Any additional metadata or footer information goes here -->
+                </footer>
             </div>
         </article>
     </div>
 
-    <!-- Footer section -->
     <div class="page__footer">
         <footer>
-            <!-- Custom footer snippets -->
-            <!-- Sitemap link -->
-            <!-- Follow and social icons -->
-            <!-- Copyright information -->
-            <!-- End custom footer snippets -->
+            <!-- Your footer content goes here -->
+            <p>&copy; 2023 Your Name. Powered by Jekyll &amp; Minimal Mistakes.</p>
         </footer>
     </div>
 
-    <!-- Main JavaScript file -->
-    <script src="https://bowenc0221.github.io/assets/js/main.min.js"></script>
+    <!-- Your main JavaScript file goes here -->
+    <script src="path/to/your/main.js"></script>
 
-    <!-- Google Analytics scripts -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131396962-1"></script>
-    <!-- End Google Analytics scripts -->
+    <!-- Your Google Analytics script goes here -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR-GA-ID"></script>
 
 </body>
 
